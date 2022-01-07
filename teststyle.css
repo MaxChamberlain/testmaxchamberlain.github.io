@@ -31,7 +31,6 @@
     font-size: 15px !important;
 }
 .returnedBoolean,.shippedBoolean{
-    background-color: #78ff9c;
     display: inline-block !important;
     border-radius: 15px;
     width: 30%;
