@@ -1,6 +1,6 @@
-#div__bodytab,table,td,.uir-list-row-even{
-    background: transparent !important;
-    background-color: transparent !important;
+#div__bodytab,table,td,.uir-list-row-even td{
+    background: #e6e6e6 !important;
+    background-color: #e6e6e6 !important;
 }
 .csTeamSearch{
     min-width: 70%;
