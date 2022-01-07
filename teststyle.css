@@ -1,6 +1,4 @@
-.csTeamSearch{
-    min-width: 70%;
-}
+
 .orderInfo,.orderHistorySince,.spentSince,.itemsInOrder{
     display: inline-block;
     width: 20%;
