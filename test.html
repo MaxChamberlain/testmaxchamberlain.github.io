@@ -1,1 +1,10 @@
-<script>document.body.style.backgroundColor = "red";</script>
+<script>
+setInterval(changeColor,1000);
+function changeColor(){
+  let r = Math.random() * 255 ;
+  let g = Math.random() * 255 ;
+  let b = Math.random() * 255 ;
+  
+  document.body.style.backgroundColor = `rgb( ${r}, ${g}, ${b} )`;
+}
+</script>
