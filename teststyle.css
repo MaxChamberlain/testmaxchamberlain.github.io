@@ -1,12 +1,13 @@
 .orderInfo,.orderHistorySince,.spentSince,.itemsInOrder{
     display: inline-block;
-    width: 200%;
+    width: 20%;
     height: 200px;
     margin: 10px;
     background-color:white;
     border-radius: 40px;
     align-content:center;
     transition: 0.2s all;
+    min-width: 40%;
 }
 .orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover{
     background-color:rgb(241, 238, 234);
