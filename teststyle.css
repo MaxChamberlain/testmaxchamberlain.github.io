@@ -1,3 +1,7 @@
+.table,.td{
+    background: transparent !important;
+    background-color: transparent !important;
+}
 .orderInfo,.orderHistorySince,.spentSince,.itemsInOrder{
     display: inline-block;
     width: 20%;
