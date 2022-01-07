@@ -30,8 +30,19 @@
     padding: 0px !important;
     font-size: 15px !important;
 }
-.topBar{
+.returnedBoolean,.shippedBoolean{
     background-color: #78ff9c;
+    display: inline-block !important;
+    border-radius: 15px;
+    width: 25%;
+    height: 30px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(59, 59, 59);
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
 }
 .discountAmount{
     
