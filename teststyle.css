@@ -7,7 +7,6 @@
     border-radius: 40px;
     align-content:center;
     transition: 0.2s all;
-    min-width: 40%;
 }
 .orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover{
     background-color:rgb(241, 238, 234);
