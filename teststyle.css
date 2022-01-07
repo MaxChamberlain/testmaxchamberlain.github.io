@@ -1,7 +1,3 @@
-#div__bodytab,table,td,.uir-list-row-even td{
-    background: #e6e6e6 !important;
-    background-color: #e6e6e6 !important;
-}
 .csTeamSearch{
     min-width: 70%;
 }
@@ -14,6 +10,7 @@
     border-radius: 40px;
     align-content:center;
     transition: 0.2s all;
+    min-width: 60%;
 }
 .orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover{
     background-color:rgb(241, 238, 234);
