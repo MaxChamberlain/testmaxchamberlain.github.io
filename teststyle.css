@@ -11,12 +11,6 @@
 .orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover{
     background-color:rgb(241, 238, 234);
 }
-tr:nth-child(2){
-  display: none;
-}
-.amountItemsVar{
-  display: inline !important;
-}
 .orderInfo div,.orderHistorySince div,.spentSince div,.itemsInOrder div{
     padding-top: 30px;
     display: block;
