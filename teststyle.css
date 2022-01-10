@@ -37,7 +37,7 @@
     align-content:center;
     transition: 0.2s all;
 }
-.orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover,.sideBarNav:hover{
+.orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover,.sideBarNav div:hover{
     background-color:rgb(241, 238, 234);
 }
 .orderInfo div,.orderHistorySince div,.spentSince div,.itemsInOrder div,.sideBarNav div{
