@@ -1,3 +1,21 @@
+
+.sideBarNav{
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  width: 15%;
+  height: 90%;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 999;
+}
+  .uir_list_filter_bar.uir_list_top_button_bar{
+    display: none;
+  }
+  #div__bodytab,.uir-list-row-even td, tr.uir-list-row-tr:hover td, tr.uir-list-row-tr.uir-active td {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
 .orderInfo,.orderHistorySince,.spentSince,.itemsInOrder{
     display: inline-block;
     width: 20%;
@@ -11,7 +29,7 @@
 .orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover{
     background-color:rgb(241, 238, 234);
 }
-.orderInfo div,.orderHistorySince div,.spentSince div,.itemsInOrder div{
+.orderInfo div,.orderHistorySince div,.spentSince div,.itemsInOrder div,.sideBarNav div{
     padding-top: 30px;
     display: block;
     font-size: 20px;
