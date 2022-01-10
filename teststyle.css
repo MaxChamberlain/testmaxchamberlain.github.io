@@ -1,4 +1,6 @@
-
+.trackingDiv{
+  font-size: 15px !important;
+}
 .sideBarNav{
   position: absolute;
   top: 5%;
