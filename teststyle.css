@@ -9,6 +9,17 @@
   border-radius: 10px;
   z-index: 999;
 }
+  .sideBarNav div{
+    width: 90%;
+    height: 20%;
+    display: block;
+    margin: 5%;
+    background-color: #E6E6E6;
+    border-radius: 10px;
+  }
+  .sideBarNav a{
+  text-decoration: none;
+}
   .uir_list_filter_bar.uir_list_top_button_bar{
     display: none;
   }
@@ -26,7 +37,7 @@
     align-content:center;
     transition: 0.2s all;
 }
-.orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover{
+.orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover,.sideBarNav:hover{
     background-color:rgb(241, 238, 234);
 }
 .orderInfo div,.orderHistorySince div,.spentSince div,.itemsInOrder div,.sideBarNav div{
