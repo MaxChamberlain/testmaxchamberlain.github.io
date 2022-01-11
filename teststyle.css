@@ -21,8 +21,9 @@
   .sideBarNav a{
   text-decoration: none;
 }
-  .uir_list_filter_bar.uir_list_top_button_bar{
+  .uir_list_filter_bar.uir_list_top_button_bar,.uir_list_header,.uir_filters_header,.uir-field-wrapper:nth-child(2),.uir-page-title,.uir_control_bar{
     display: none;
+    border: none;
   }
   #div__bodytab,.uir-list-row-even td, tr.uir-list-row-tr:hover td, tr.uir-list-row-tr.uir-active td {
     background: transparent !important;
