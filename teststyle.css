@@ -63,7 +63,7 @@
 .returnedBoolean,.shippedBoolean,.waveBoolean{
     display: inline-block !important;
     border-radius: 15px;
-    width: 30%;
+    width: 28%;
     height: 35px;
     display: block;
     font-size: 20px;
