@@ -29,7 +29,8 @@
     background-color: transparent !important;
   }
   .shippingDetails{
-    width: 40% !important;
+    width: 15% !important;
+    height: 100%;
   }
   .shippingDetails div{
     padding-left: 5%;
