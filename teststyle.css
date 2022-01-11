@@ -28,6 +28,18 @@
     background: transparent !important;
     background-color: transparent !important;
   }
+  .shippingDetails{
+    width: 40% !important;
+  }
+  .shippingDetails div{
+    padding-left: 5%;
+    padding-top: 10px;
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    color:rgb(59, 59, 59);
+    text-align: left;
+  }
 .orderInfo,.orderHistorySince,.spentSince,.itemsInOrder,.backorderedCount,.shippingDetails{
     display: inline-block;
     width: 20%;
