@@ -60,7 +60,7 @@
     padding: 0px !important;
     font-size: 15px !important;
 }
-.returnedBoolean,.shippedBoolean{
+.returnedBoolean,.shippedBoolean,.waveBoolean{
     display: inline-block !important;
     border-radius: 15px;
     width: 30%;
