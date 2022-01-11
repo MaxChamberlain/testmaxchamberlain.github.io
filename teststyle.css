@@ -28,7 +28,7 @@
     background: transparent !important;
     background-color: transparent !important;
   }
-.orderInfo,.orderHistorySince,.spentSince,.itemsInOrder,.backorderedCount{
+.orderInfo,.orderHistorySince,.spentSince,.itemsInOrder,.backorderedCount,.shippingDetails{
     display: inline-block;
     width: 20%;
     height: 200px;
@@ -38,7 +38,7 @@
     align-content:center;
     transition: 0.2s all;
 }
-.orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover,.backorderedCount:hover,.sideBarNav div:hover{
+.orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover,.backorderedCount:hover,.sideBarNav div:hover,.shippingDetails:hover{
     background-color:rgb(241, 238, 234);
 }
 .orderInfo div,.orderHistorySince div,.spentSince div,.itemsInOrder div,.sideBarNav div,.backorderedCount div{
