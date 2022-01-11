@@ -28,7 +28,7 @@
     background: transparent !important;
     background-color: transparent !important;
   }
-.orderInfo,.orderHistorySince,.spentSince,.itemsInOrder{
+.orderInfo,.orderHistorySince,.spentSince,.itemsInOrder,.backorderedCount{
     display: inline-block;
     width: 20%;
     height: 200px;
@@ -38,10 +38,10 @@
     align-content:center;
     transition: 0.2s all;
 }
-.orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover,.sideBarNav div:hover{
+.orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover,.backorderedCount:hover,.sideBarNav div:hover{
     background-color:rgb(241, 238, 234);
 }
-.orderInfo div,.orderHistorySince div,.spentSince div,.itemsInOrder div,.sideBarNav div{
+.orderInfo div,.orderHistorySince div,.spentSince div,.itemsInOrder div,.sideBarNav div,.backorderedCount div{
     padding-top: 30px;
     display: block;
     font-size: 20px;
