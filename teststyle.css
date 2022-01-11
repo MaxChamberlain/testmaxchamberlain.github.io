@@ -41,7 +41,7 @@
 .orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover,.backorderedCount:hover,.sideBarNav div:hover,.shippingDetails:hover{
     background-color:rgb(241, 238, 234);
 }
-.orderInfo div,.orderHistorySince div,.spentSince div,.itemsInOrder div,.sideBarNav div,.backorderedCount div{
+.orderInfo div,.orderHistorySince div,.spentSince div,.itemsInOrder div,.sideBarNav div,.backorderedCount div,.shippingDetails div:first-of-type{
     padding-top: 30px;
     display: block;
     font-size: 20px;
