@@ -22,7 +22,7 @@
   text-decoration: none;
 }
 .tr.uir-list-row-tr:nth-last-child(2) td{
-  border-bottom: none;
+  border-bottom: none !important;
 }
   .uir_list_filter_bar.uir_list_top_button_bar,.uir_list_header,.uir_filters_header,.uir-field-wrapper:nth-child(2),.uir-page-title,.uir_control_bar{
     display: none;
