@@ -85,7 +85,8 @@ color: white;
 }
 .returnedBoolean,.shippedBoolean,.waveBoolean{
     display: inline-block !important;
-    width: 33%;
+    width: 30%;
+    margin: 0 1.5%;
     height: 35px;
     display: block;
     font-size: 20px;
