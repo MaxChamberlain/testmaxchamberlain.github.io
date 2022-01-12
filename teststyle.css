@@ -52,8 +52,8 @@
     align-content:center;
     transition: 0.2s all;
 }
-#a:first-child{
-  background-color: #607799;
+.headingTab{
+  background-color: #607799 !important;
 }
 .itemsInOrder:hover,#a:hover,.sideBarNav div:hover,.shippingDetails:hover{
     background-color:rgb(241, 238, 234);
@@ -66,11 +66,6 @@
     font-weight: bold;
     color:rgb(59, 59, 59);
     text-align: center;
-}
-#a div:first-of-type, .shippingDetails div:first-of-type{
-padding-top:10px !important;
-background-color: #607799 !important;
-color: white;
 }
 .itemsInOrder{
     width: 35% !important;
