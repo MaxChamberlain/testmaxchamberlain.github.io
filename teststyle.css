@@ -89,16 +89,7 @@
     text-align: center;
     vertical-align: middle;
     padding: 5px;
-}
-.waveBoolean{
-  box-border: 0 0 0 2pt black;
-
-}
-.discountAmount{
-
-}
-.sideBarNav{
-
+    box-border: 0 0 0 1px #D3D3D3;
 }
 .newLine{
     display:block;
