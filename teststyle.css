@@ -39,7 +39,6 @@
     padding: 5px 5%;
     display: block;
     font-size: 16px;
-    font-weight: bold;
     color:rgb(59, 59, 59);
     text-align: left;
   }
@@ -80,8 +79,8 @@
 }
 .returnedBoolean,.shippedBoolean,.waveBoolean{
     display: inline-block !important;
-    width: 30%;
-    margin: 0 1.5%;
+    width: 31%;
+    margin: 0 0.5%;
     height: 35px;
     display: block;
     font-size: 20px;
