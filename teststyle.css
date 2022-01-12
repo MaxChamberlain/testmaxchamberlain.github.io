@@ -69,7 +69,7 @@
 }
 #a div:first-of-type, .shippingDetails div:first-of-type{
 padding-top:10px !important;
-background-color: rgb(96, 119, 153);
+background-color: #607799 !important;
 color: white;
 }
 .itemsInOrder{
@@ -96,6 +96,7 @@ color: white;
     vertical-align: middle;
     padding: 5px;
     box-border: 0 0 0 1px #D3D3D3;
+    border-radius: 0 !important;
 }
 .newLine{
     display:block;
