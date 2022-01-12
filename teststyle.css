@@ -45,7 +45,7 @@
     color:rgb(59, 59, 59);
     text-align: left;
   }
-.orderInfo,.orderHistorySince,.spentSince,.itemsInOrder,.backorderedCount,.shippingDetails{
+.itemsInOrder,#a,.shippingDetails{
     display: inline-block;
     width: 20%;
     height: 200px;
@@ -55,10 +55,10 @@
     align-content:center;
     transition: 0.2s all;
 }
-.orderInfo:hover,.orderHistorySince:hover,.spentSince:hover,.itemsInOrder:hover,.backorderedCount:hover,.sideBarNav div:hover,.shippingDetails:hover{
+.itemsInOrder:hover,#a:hover,.sideBarNav div:hover,.shippingDetails:hover{
     background-color:rgb(241, 238, 234);
 }
-.orderInfo div,.orderHistorySince div,.spentSince div,.itemsInOrder div,.sideBarNav div,.backorderedCount div,.shippingDetails div:first-of-type{
+.itemsInOrder div,.sideBarNav div,#a div,.shippingDetails div:first-of-type{
     padding-left: 0;
     padding-top: 30px;
     display: block;
