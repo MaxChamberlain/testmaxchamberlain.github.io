@@ -24,6 +24,7 @@
 .tr.uir-list-row-tr:nth-last-child(2) td{
   border-bottom: none !important;
 }
+#navbarHeader{width: 100%; background-color: #607799 !important; padding: 10px 0 0; width: 100%; height: 6%; margin: 0;}
   .uir_list_filter_bar.uir_list_top_button_bar,.uir_list_header,.uir-field-wrapper:nth-child(2),.uir-page-title,.uir_control_bar{
     display: none;
     border: none;
