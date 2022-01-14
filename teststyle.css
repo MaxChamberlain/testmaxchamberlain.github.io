@@ -34,6 +34,9 @@
     border-radius: 3%;
     min-width: 200px;
 }
+#a{
+  transition: all 0.1s;
+}
 .headingTab{
   background-color: #607799 !important;
   margin-top: 10px;
@@ -86,4 +89,47 @@
 }
 .newLine{
     display:block;
+}
+#a:first-of-type:hover::after {
+opacity: 100%;
+font-weight: bold;
+font-size: 2;
+color: gray;
+left: 12.5%;
+top: 55%;
+position: absolute;
+content: "View Sales Order Page";
+}
+.shippedBoolean::before{
+  transition: 0.2s all;
+  letter-spacing: 0;
+  content: "'||MIN(CASE WHEN {applyingtransaction.status}='Shipped' THEN CONCAT('Fulfilled ',{applyingtransaction.trandate}) ELSE 'Unfulfilled' END)||'";
+}
+.waveBoolean::before{
+  transition: 0.2s all;
+  letter-spacing: 0;
+  content: "Wave: '||MIN(CASE WHEN {applyingtransaction.type}='Wave' THEN {applyingtransaction.number} ELSE 'This Order Is Not In A Wave' END)||'";
+}
+.returnedBoolean::before{
+  transition: 0.2s all;
+  letter-spacing: 0;
+  content: "'||MIN(CASE WHEN {applyingtransaction.type}='Return Authorization' THEN CONCAT('Returned On ',{applyingtransaction.trandate}) ELSE 'This Order Has Not Been Returned' END)||'";
+}
+.shippedBoolean:hover::before{
+letter-spacing: 0.5px;
+color: gray;
+  content: "'||MAX(CASE WHEN {applyingtransaction.status}='Shipped' THEN CONCAT('View Item Fulfillment ',{applyingtransaction.number}) ELSE 'Unfulfilled' END)||'";
+}
+.waveBoolean:hover::before{
+letter-spacing: 0.5px;
+color: gray;
+  content: "'||MAX(CASE WHEN {applyingtransaction.type}='Wave' THEN CONCAT('View Wave ',{applyingtransaction.number}) ELSE 'This Order Is Not In A Wave' END)||'";
+}
+.returnedBoolean:hover::before{
+letter-spacing: 0.5px;
+color: gray;
+  content: "'||MAX(CASE WHEN {applyingtransaction.type}='Return Authorization' THEN CONCAT('View Return Document ',{applyingtransaction.number}) ELSE 'This Order Has Not Been Returned' END)||'";
+}
+#a:hover div {
+opacity: 50%;
 }
