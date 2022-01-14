@@ -1,26 +1,3 @@
-.trackingDiv{
-  font-size: 15px !important;
-}
-.sideBarNav{
-  position: absolute;
-  top: 45px;
-  right: 0.5%;
-  width: 16.5%;
-  height: 90%;
-  background-color: white;
-}
-  .sideBarNav div{
-    width: 90%;
-    height: 20%;
-    display: block;
-    margin: 5%;
-    background-color: #E6E6E6;
-    transition: 0.1s all;
-    border-left: 7px solid #607799;
-  }
-  .sideBarNav a{
-  text-decoration: none;
-}
 .tr.uir-list-row-tr:nth-last-child(2) td{
   border-bottom: none !important;
 }
@@ -93,7 +70,7 @@
 }
 .returnedBoolean,.shippedBoolean,.waveBoolean{
     display: inline-block !important;
-    width: 31%;
+    width: 31vw;
     margin: 0 0.5%;
     height: 35px;
     display: block;
