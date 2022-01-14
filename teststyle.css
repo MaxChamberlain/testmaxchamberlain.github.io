@@ -87,7 +87,3 @@
 .newLine{
     display:block;
 }
-.cust-content-container{
-  display:flex;
-  justify-content:space-around;
-}
