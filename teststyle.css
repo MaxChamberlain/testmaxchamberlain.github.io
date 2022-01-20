@@ -1,28 +1,34 @@
 .tr.uir-list-row-tr:nth-last-child(2) td{
   border-bottom: none !important;
 }
-#navbarHeader{width: 100%; background-color: #607799 !important; padding: 10px 0 0; width: 100%; height: 6%; margin: 0;}
-  .uir_list_filter_bar.uir_list_top_button_bar,.uir_list_header,.uir-field-wrapper:nth-child(2),.uir-page-title,.uir_control_bar{
+#navbarHeader{
+width: 100%;
+background-color: #607799 !important;
+padding: 10px 0 0;
+width: 100%; height: 6%;
+margin: 0;
+}
+.uir_list_filter_bar.uir_list_top_button_bar,.uir_list_header,.uir-field-wrapper:nth-child(2),.uir-page-title,.uir_control_bar{
     display: none;
     border: none;
-  }
-  #div__bodytab,.uir-list-row-even td, tr.uir-list-row-tr:hover td, tr.uir-list-row-tr.uir-active td {
+}
+#div__bodytab,.uir-list-row-even td, tr.uir-list-row-tr:hover td, tr.uir-list-row-tr.uir-active td{
     background: transparent !important;
     background-color: transparent !important;
-  }
-  .shippingDetails{
+}
+.shippingDetails{
     width: 25% !important;
     height: 100% !important;
     padding-bottom: 50px;
-  }
-  .shippingDetails div{
+}
+.shippingDetails div{
     padding: 5px 5%;
     display: block;
     font-size: 16px;
     color:rgb(59, 59, 59);
     text-align: left;
-  }
-.itemsInOrder,#a,.shippingDetails{
+}
+.itemsInOrder,#a,.shippingDetails,.fedex{
     display: inline-block;
     width: 22%;
     height: 200px;
@@ -42,10 +48,10 @@
   margin-top: 10px;
   color: white;
 }
-.itemsInOrder:hover,#a:hover,.sideBarNav div:hover,.shippingDetails:hover{
+.itemsInOrder:hover,#a:hover,.fedex:hover,.sideBarNav div:hover,.shippingDetails:hover{
     background-color:rgb(241, 238, 234);
 }
-.itemsInOrder div,.sideBarNav div,#a div,.shippingDetails div:first-of-type{
+.itemsInOrder div,.sideBarNav div,#a div,.fedex div,.shippingDetails div:first-of-type{
     padding-left: 0;
     padding-top: 30px;
     display: block;
